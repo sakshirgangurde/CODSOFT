@@ -11,6 +11,7 @@ Features
 
 ## Requirements
 
+- Text editor (e.g., Visual Studio Code, Sublime Text)
 - A web browser (e.g., Chrome, Firefox, Safari).
 - Basic knowledge of HTML and CSS.
 
