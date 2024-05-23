@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Home Products</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        /* Header Styling */
+        header {
+             /* Green color for eco-friendly theme */
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header img {
+            max-width: 120px; /* Adjust logo size if needed */
+        }
+        
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        
+        /* Main Content Styling */
+        .hero-section {
+            background-image: url('new.jpg'); /* Placeholder image */
+            opacity: 0.8;
+           /* margin-left: 40px;
+            margin-right: 40px;  
+            border-radius: 30px;  */
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            padding: 80px 0;
+        }
+
+       
+        
+        .hero-section h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .hero-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            background-color: lightgreen;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        /* Product Showcase Section */
+        .product-showcase {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .product-card {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            max-width: 300px;
+            position: relative;
+        }
+        
+        .product-card img {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        
+        .product-card h3 {
+            margin-bottom: 5px;
+        }
+        
+        .product-card p {
+            margin-bottom: 20px; /* Add some bottom margin to create space between the content and button */
+        }
+
+        
+        /* Featured Benefits Section */
+        .featured-benefits {
+            background-color: #b9df8e;
+            padding: 20px 0;
+            text-align: center;
+            margin-left: 120px;
+            margin-right: 120px;
+            border-radius: 10px;
+        }
+        
+        .benefits-list {
+            display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+        }
+
+        .benefit-item {
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.benefit-item img {
+    max-width: 60%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.benefit-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 18px;
+}
+        
+
+
+
+        .benefits-list li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        /* Subscribe for Updates Section */
+        .subscribe-section {
+            
+            color: black;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 20px; /* Added margin bottom */
+        }
+        
+        .subscribe-form {
+            margin-bottom: 20px;
+        }
+        
+        .subscribe-form input[type="email"] {
+            padding: 5px;
+            font-size: 16px;
+            border: 2px solid black; /* Black border */
+            border-radius: 5px;
+            margin-right: 15px;
+            margin-bottom: 5px; /* Added margin bottom */
+        }
+        
+        .subscribe-form button {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        /* Footer Styling */
+        footer {
+            background-color: #4CAF50; /* Green color for eco-friendly theme */
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="pngegg.png" alt="Eco-Friendly Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <h1>Welcome to Eco-Friendly Home Products</h1>
+        <p>Explore our collection of eco-friendly products designed to create a sustainable home environment.</p>
+        <a href="#" class="cta-button">Shop Now</a>
+    </div>
+
+    <div class="product-showcase">
+        <h2>Featured Products</h2>
+        <div class="product-card">
+            <img src="bulbs.jpg" alt="Product 1">
+            <h3>Energy-Efficient Light Bulbs</h3>
+            <p>Switch to LED bulbs and save energy by producing less heat.</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+        <div class="product-card">
+            <img src="bottles1.jpg" alt="Product 2">
+            <h3>Reusable Water Bottles</h3>
+            <p>Stay hydrated while reducing plastic waste.</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+        <!-- Add more product cards as needed -->
+    </div>
+
+    <div class="featured-benefits">
+        <h2>Benefits of Eco-Friendly Products</h2>
+        <div class="benefits-list">
+            <div class="benefit-item">
+                <img src="carbon.jpg" alt="Carbon Footprint">
+                <h3>Reduce carbon footprint</h3>
+                <p>Take steps to minimize your impact on the environment.</p>
+            </div>
+            <div class="benefit-item">
+                <img src="utility.jpg" alt="Utility Bills">
+                <h3>Save money on utility bills</h3>
+                <p>Opt for energy-efficient products to reduce your energy consumption.</p>
+            </div>
+            <div class="benefit-item">
+                <img src="environment.jpeg" alt="Healthier Environment">
+                <h3>Promote a healthier environment</h3>
+                <p>Support initiatives that contribute to cleaner air and water.</p>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+
+    <div class="subscribe-section">
+        <h2>Subscribe for Updates</h2>
+        <form class="subscribe-form" action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Home Products. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p>Contact us at sakshigangurde2101@gmail.com | Follow us on <a href="#">Facebook</a> and <a href="#">Twitter</a></p>
+    </footer>
+</body>
+</html>
